@@ -1,4 +1,5 @@
 {
+  "homepage": "https://CarlosPimentel10.github.io/my-portfolio",
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,7 @@
     "@testing-library/user-event": "^12.1.10",
     "babel": "^6.23.0",
     "emailjs-com": "^3.1.0",
+    "gh-pages": "^3.2.3",
     "ityped": "^1.0.3",
     "jslint": "^0.12.1",
     "react": "^17.0.2",
@@ -22,6 +24,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,9 +48,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },  
+  },
   "devDependencies": {
     "rollup": "^2.52.7",
-    "sass": "^1.35.1"
-  }  
+    "sass": "^1.35.1",
+    "gh-pages":"^3.2.3"
+  }
 }
