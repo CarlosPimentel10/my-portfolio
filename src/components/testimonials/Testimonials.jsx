@@ -7,7 +7,7 @@ export default function Testimonials() {
       name: "Abraham Sylvester",
       title: "Software Engineer",
       img:
-        "/assets/abraham_sylvester.jpeg",
+        "assets/abraham_sylvester.jpeg",
       icon: "assets/linkedin.png",
       desc:
         "I have worked on some projects with Carlos and he has proven to be: a very creative, dedicated and hardworker designer and web developer.",
