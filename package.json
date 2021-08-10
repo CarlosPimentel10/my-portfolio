@@ -12,10 +12,13 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "babel": "^6.23.0",
+    "emailjs-com": "^3.1.0",
     "ityped": "^1.0.3",
+    "jslint": "^0.12.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "validator": "^13.6.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -41,9 +44,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
+  },  
   "devDependencies": {
     "rollup": "^2.52.7",
     "sass": "^1.35.1"
-  }
+  }  
 }
