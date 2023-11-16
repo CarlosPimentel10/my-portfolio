@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./contact.scss";
 import validator from "validator";
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 import { init } from 'emailjs-com';
 init("user_L94fg8xzhbatQZXDRPOXu");
 
