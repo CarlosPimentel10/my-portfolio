@@ -11,7 +11,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     <a href="#intro" className="logo">Carlos | Developer</a>
                     <div className="itemContainer">
                         <Person className="icon" />
-                        <span>+351 969274577</span>
+                        <span>+351 969 274 577</span>
                         <Mail className="icon" />
                         <span>carlos.costa.pimentel@gmail.com</span>
                         <a href="https://www.linkedin.com/in/carlos-pimentel-5a3aa841/" target="_blank" rel="noreferrer" alt="linkedin profile">
