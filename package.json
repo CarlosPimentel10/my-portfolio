@@ -1,6 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
+  "homepage": "https://carlospimentel10.github.io/my-portfolio",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.14.6",
@@ -23,9 +24,9 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -50,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "rollup": "^2.52.7",
     "sass": "^1.35.1"
   }
